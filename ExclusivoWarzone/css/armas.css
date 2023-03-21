@@ -1,0 +1,32 @@
+
+.container-armas .card img {
+	align-content: center;
+	width: 660;
+    height: 440px;
+
+   
+
+}
+.container-armas .card h4{
+
+    text-align: center;
+	font-size: 55px;
+	color:black;
+}
+.container-armas .card p{
+
+    text-align: left;
+    font-size: 25px;
+	margin-top: 40px;
+	font-family: sans-serif;
+
+}
+.footer{
+	text-align: center;
+}
+.container-armas{
+	width: 850px; 
+	margin: auto;
+	
+
+}

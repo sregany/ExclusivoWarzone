@@ -1,0 +1,139 @@
+/*indice superior*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+
+}
+
+header{
+
+	position: fixed;
+	top: 0 ;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	background: #fff;
+	box-shadow: 0 4px 25px -22px black ;
+	z-index: 2;
+
+}
+.header-container{
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.letras{
+	height: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.letras h1 b{
+	color: blue;
+}
+.menu{
+	height: 80px;
+
+}
+.menu nav {
+	height: 100%;
+}
+.menu nav ul{
+	height: 100%;
+	display: flex;
+	list-style: none;
+
+}
+
+.menu nav ul li{
+
+	height: 100%;
+	margin:  0px 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+
+}
+.menu nav ul li a{
+	color: #777777;
+	font-size: 15px;
+	transition: color 250ms;
+}
+
+.menu nav ul li a:hover{
+	color: blue;
+}
+
+/*Portada*/
+
+.container-portada{
+	width: 1200px; 
+	margin: auto;
+	margin-top: 140px; /* Para que baje la letra*/
+
+
+}	
+
+/*tabla*/
+table {
+   width: 100%;
+   border: 1px solid #000;
+}
+th, td {
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   padding: 0.6em;
+   caption-side: bottom;
+}
+caption {
+   padding: 0.3em;
+   color: #fff;
+    background: #000;
+}
+th {
+   background: #eee;
+}
+/*Footer - pie de pagina*/
+
+.container-footer{
+    width: 100%;
+    padding: 40px 0;
+    background: #fff;
+    margin-top: 40px;
+}
+
+.container-footer footer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-footer footer .logo-footer{
+    text-align: center;
+}
+
+.container-footer footer .logo-footer img{
+    width: 100px;
+}
+
+.container-footer footer hr{
+    margin-top: 20px;
+    border: none;
+    height: 2px;
+    background: #c0c0c07a;
+}
+
+
+.container-footer h4{
+    text-align: center;
+    margin-top: 40px;
+    color: #8e8e8e;
+    font-weight: 500;
+}

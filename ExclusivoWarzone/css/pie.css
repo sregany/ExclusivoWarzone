@@ -1,0 +1,36 @@
+/*Footer - pie de pagina*/
+
+.conta-footer{
+    width: 100%;
+    padding: 40px 0;
+    background: #fff;
+    margin-top: 40px;
+}
+
+.conta-footer footer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.conta-footer footer .logo-footer{
+    text-align: center;
+}
+
+.conta-footer footer .logo-footer img{
+    width: 100px;
+}
+
+.conta-footer footer hr{
+    margin-top: 20px;
+    border: none;
+    height: 2px;
+    background: #c0c0c07a;
+}
+
+
+.conta-footer h4{
+    text-align: center;
+    margin-top: 40px;
+    color: #8e8e8e;
+    font-weight: 500;
+}
